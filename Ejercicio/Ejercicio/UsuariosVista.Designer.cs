@@ -38,10 +38,10 @@
             // UsuariosDataGridView
             // 
             this.UsuariosDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.UsuariosDataGridView.Location = new System.Drawing.Point(39, 48);
-            this.UsuariosDataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.UsuariosDataGridView.Location = new System.Drawing.Point(13, 48);
+            this.UsuariosDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.UsuariosDataGridView.Name = "UsuariosDataGridView";
-            this.UsuariosDataGridView.Size = new System.Drawing.Size(348, 276);
+            this.UsuariosDataGridView.Size = new System.Drawing.Size(659, 288);
             this.UsuariosDataGridView.TabIndex = 0;
             // 
             // label1
@@ -56,7 +56,8 @@
             // 
             // AceptarButton
             // 
-            this.AceptarButton.Location = new System.Drawing.Point(162, 351);
+            this.AceptarButton.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.AceptarButton.Location = new System.Drawing.Point(441, 357);
             this.AceptarButton.Name = "AceptarButton";
             this.AceptarButton.Size = new System.Drawing.Size(106, 39);
             this.AceptarButton.TabIndex = 2;
@@ -66,7 +67,8 @@
             // 
             // SalirButton
             // 
-            this.SalirButton.Location = new System.Drawing.Point(281, 351);
+            this.SalirButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.SalirButton.Location = new System.Drawing.Point(566, 357);
             this.SalirButton.Name = "SalirButton";
             this.SalirButton.Size = new System.Drawing.Size(106, 39);
             this.SalirButton.TabIndex = 3;
@@ -78,13 +80,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(427, 422);
+            this.ClientSize = new System.Drawing.Size(685, 422);
             this.Controls.Add(this.SalirButton);
             this.Controls.Add(this.AceptarButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.UsuariosDataGridView);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UsuariosVista";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.UsuariosVista_Load);

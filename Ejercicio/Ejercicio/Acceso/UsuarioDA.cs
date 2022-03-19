@@ -7,7 +7,7 @@ namespace Ejercicio.Acceso
 {
     public class UsuarioDA 
     {
-        readonly string cadena = "Server=localhost; Port=3306; Database=ejercicio3; Uid = root; Pwd = Mayk123;";
+        readonly string cadena = "Server=localhost; Port=3306; Database=Ejercicio3; Uid = root; Pwd = Mayk123;";
 
         MySqlConnection conn;
         MySqlCommand cmd;
@@ -17,7 +17,7 @@ namespace Ejercicio.Acceso
             Usuario usuario = null;
             try
             {
-                string sql = "SELECT * FROM usuario WHERE Codigo = @IdUsuario AND Clave = @Clave;";
+                string sql = "SELECT * FROM usuario WHERE IdUsuario = @IdUsuario AND Clave = @Clave;";
 
                 conn = new MySqlConnection(cadena);
                 conn.Open();

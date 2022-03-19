@@ -41,6 +41,7 @@
             this.ClaveTextBox.Location = new System.Drawing.Point(203, 110);
             this.ClaveTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.ClaveTextBox.Name = "ClaveTextBox";
+            this.ClaveTextBox.PasswordChar = '*';
             this.ClaveTextBox.Size = new System.Drawing.Size(200, 22);
             this.ClaveTextBox.TabIndex = 7;
             // 
@@ -75,6 +76,7 @@
             // 
             // AceptarButton
             // 
+            this.AceptarButton.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.AceptarButton.Location = new System.Drawing.Point(240, 194);
             this.AceptarButton.Margin = new System.Windows.Forms.Padding(4);
             this.AceptarButton.Name = "AceptarButton";
@@ -86,6 +88,7 @@
             // 
             // CancelarButton
             // 
+            this.CancelarButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.CancelarButton.Location = new System.Drawing.Point(388, 194);
             this.CancelarButton.Margin = new System.Windows.Forms.Padding(4);
             this.CancelarButton.Name = "CancelarButton";

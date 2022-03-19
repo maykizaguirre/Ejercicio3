@@ -32,7 +32,9 @@ namespace Ejercicio
                 return;
             }
 
-            
+            UsuariosVista usuariosVista = new UsuariosVista();
+            usuariosVista.Show();
+            this.Hide();
 
         }
 
